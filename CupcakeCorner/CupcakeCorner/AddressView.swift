@@ -16,7 +16,7 @@ struct AddressView: View {
 				TextField("Name", text: $order.name)
 				TextField("Street Address", text: $order.streetAddress)
 				TextField("City", text: $order.city)
-				TextField("Post Code", text: $order.postCode)
+				TextField("Zip", text: $order.zip)
 			}
 			
 			Section {
